@@ -86,13 +86,13 @@ body {
   padding-top: 1px;
 }
 .containers {
-  height: 250px;
+  height: 270px;
   width: 100vw;
   /* background-color: #dadada; */
   display: flex;
   gap: 100px;
   align-items: center;
-  margin-top: 20px;
+  margin-top: 40px;
   padding: 0px 40px;
 }
 .elem {
@@ -115,7 +115,7 @@ body {
   width: 400px;
   /* background-color: #000; */
   overflow: hidden;
-  background-image: url(https://t4.ftcdn.net/jpg/02/16/28/29/360_F_216282910_yjxZDV8zDD2FaaBzxaQcNBhFMnmpuoFj.jpg);
+  background-image: url(https://media.istockphoto.com/id/472991416/vector/illustration-of-workman-with-oversized-wrench-over-shoulder.jpg?s=612x612&w=0&k=20&c=68bgFJB_WLi70LiM_jBX1q2hb18e3xs_-w8gWihwiGM=);
   background-position: center;
   background-size: cover;
   transition: all ease 0.5s;
@@ -125,7 +125,7 @@ body {
   width: 400px;
   /* background-color: #000; */
   overflow: hidden;
-  background-image: url(https://miro.medium.com/v2/resize:fit:4320/1*JktzC9GrA_l4yz0cCy8a5Q.jpeg);
+  background-image: url(https://cdn2.vectorstock.com/i/1000x1000/94/11/mechanics-tools-icon-vector-6169411.jpg);
   background-position: center;
   background-size: cover;
   transition: all ease 0.5s;
@@ -136,7 +136,7 @@ body {
   width: 400px;
   /* background-color: #000; */
   overflow: hidden;
-  background-image: url(https://content.jdmagicbox.com/comp/indore/r1/0731px731.x731.190710112320.s9r1/catalogue/patidar-electrician-bengali-chowk-indore-electricians-jv8zzyuqxw.jpg);
+  background-image: url(https://handymanconnection.com/saskatoon/wp-content/uploads/sites/45/2022/08/4-Questions-To-Ask-Before-Hiring-an-Electrician.png);
   background-position: center;
   background-size: cover;
   transition: all ease 0.5s;
@@ -145,7 +145,7 @@ body {
   height: 100%;
   width: 400px;
   /* background-color: #000; */
-  background-image: url(https://mywallworks.com/wp-content/uploads/2018/08/hiring-a-painter.jpeg);
+  background-image: url(https://i.pinimg.com/originals/da/a6/52/daa652ac99b274fdb2b5d32b92c54b62.jpg);
   overflow: hidden;
   background-position: top;
   background-size: cover;
@@ -155,8 +155,8 @@ body {
   height: 100%;
   width: 400px;
   /* background-color: #000; */
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaLU3F893NESl9az3sx9T1kqtfj1B53AF-gw&usqp=CAU);
-  overflow: hidden;
+    background-image: url(https://apollo.olx.in/v1/files/b1a3vjj78wsv1-IN/image;s=360x0);
+    overflow: hidden;
   background-position: top;
   background-size: cover;
   transition: all ease 0.5s;
@@ -165,7 +165,7 @@ body {
   height: 100%;
   width: 400px;
   /* background-color: #000; */
-  background-image: url(https://b.zmtcdn.com/data/pictures/chains/5/19707215/2ce6614fe99c4d3d5ae806c4e32b8b94.jpg);
+  background-image: url(https://res.cloudinary.com/teepublic/image/private/s--YT1PTNu8--/c_crop,x_10,y_10/c_fit,h_1109/c_crop,g_north_west,h_1260,w_945,x_-59,y_-76/co_rgb:ffffff,e_colorize,u_Misc:One%20Pixel%20Gray/c_scale,g_north_west,h_1260,w_945/fl_layer_apply,g_north_west,x_-59,y_-76/bo_105px_solid_white/e_overlay,fl_layer_apply,h_1260,l_Misc:Art%20Print%20Bumpmap,w_945/e_shadow,x_6,y_6/c_limit,h_1254,w_1254/c_lpad,g_center,h_1260,w_1260/b_rgb:eeeeee/c_limit,f_auto,h_630,q_auto:good:420,w_630/v1650958337/production/designs/29732446_0.jpg);
   overflow: hidden;
   background-position: top;
   background-size: cover;
@@ -173,32 +173,57 @@ body {
 }
 
 .elem img {
-  height: 100%;
+  height: 87%;
   width: 100%;
   object-fit: cover;
   transition: all ease 0.5s;
   border: 2px solid #2ef;
+  opacity: 0;
 
 }
 .elem:hover {
   scale: 1.1;
 }
-.elem:hover img {
+.elem h2{
   opacity: 0;
+  text-align: center;
+  font-size: 25px;
+  text-transform: capitalize;
+}
+.elems h2{
+  opacity: 0;
+  text-align: center;
+  font-size: 25px;
+  text-transform: capitalize;
+}
+.elem:hover img {
+  opacity: 1;
+}
+.elem:hover{
+background-image: none;
+}
+.elem:hover h2{
+  opacity: 1;
 }
 .elems img {
-  height: 100%;
+  height: 87%;
   width: 100%;
+  opacity: 0;
   object-fit: cover;
   transition: all ease 0.5s;
   border: 2px solid #2ef;
-
+}
+.elems:hover{
+background-image: none;
 }
 .elems:hover {
   scale: 1.1;
 }
 .elems:hover img {
-  opacity: 0;
+  opacity: 1;
+}
+.elems:hover h2{
+  opacity: 1;
 }
 
 #page2{
